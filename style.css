@@ -1,0 +1,28 @@
+body{
+ background-color:blue;
+ color: black;
+ text-align: center;
+ display: flex;
+}
+
+#cookieBtn{
+ border: dotted;
+ background: none;
+ cursor: pointer;
+}
+
+#cookieBtn img{
+ width: 200px;
+}
+
+#shop {
+ text-align: right;
+ margin-left: 200px;
+ color: chartreuse;
+}
+
+#shop button{
+ border: dotted;
+ background: none;
+ cursor: pointer;
+}
