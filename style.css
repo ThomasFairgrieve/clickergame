@@ -9,6 +9,7 @@ body{
  border: dotted;
  background: none;
  cursor: pointer;
+ touch-action: manipulation;
 }
 
 #cookieBtn img{
