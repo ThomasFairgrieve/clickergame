@@ -1,3 +1,8 @@
+const camera = document.getElementById("camera");
+navigator.mediaDevices.getUserMedia({ video: true }).then(function(stream) {
+  camera.srcObject = stream;
+});
+
 let treats = 0;
 
 const counter = document.getElementById("counter");
